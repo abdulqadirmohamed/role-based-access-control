@@ -12,11 +12,11 @@ const Form = () => {
                     <p className='text-sm'>To access the private page you have to be authenticated</p>
                 </div>
                 <div className="my-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email">Email <span className='text-red-600'>*</span></Label>
                     <Input type="email" id="email" placeholder="Enter your email" />
                 </div>
                 <div className="my-2">
-                    <Label htmlFor="password">Password</Label>
+                    <Label htmlFor="password">Password <span className='text-red-600'>*</span></Label>
                     <Input type="Password" id="Password" placeholder="Enter your password" />
                 </div>
                 <div className='my-3'>
